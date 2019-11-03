@@ -1,11 +1,12 @@
 import React from "react";
-import Profile from "./components/Profile";
+import Login from './components/task1/login';
+import Drawer from './components/task2/drawer';
 
 function App() {
   return (
     <div>
-      <h2>Welcome to the future</h2>
-      <Profile />
+      {/* <Login /> */}
+      {/* <Drawer /> */}
     </div>
   );
 }
