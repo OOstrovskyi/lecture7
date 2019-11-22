@@ -51,7 +51,7 @@ function Notification({ text, type }) {
       return <Warning text={text} />
     case 'error':
       return<Error text={text} />
-    default: return <p>Unexpected type of notification {text}</p>
+    default: return null;
   }
 }
 
