@@ -5,7 +5,8 @@ import React from "react";
 //import TodoList from "./components/task5/todo";
 //import {DisplayComponent} from './components/task6/displayComponent';
 //import Counter from './components/task7-8/counter';
-import Users from './components/task9/users';
+//import Users from './components/task9/users';
+import Notifications from './components/task10/notification';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <TodoList /> */}
       {/* <DisplayComponent display={true}/> */}
       {/* <Counter /> */}
-      <Users />
+      {/* <Users /> */}
+      <Notifications />
     </div>
   );
 }

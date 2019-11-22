@@ -1,0 +1,11 @@
+p.info {
+  color: navy;
+}
+
+p.error {
+  color: red;
+}
+
+p.warning {
+  color: greenyellow;
+}
